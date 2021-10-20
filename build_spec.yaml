@@ -103,6 +103,3 @@ outputArtifacts:
     # this location tag doesn't effect the tag used to deliver the container image
     # to the Container Registry
     location: node-express-getting-started:latest
-  - name: build-service-demo-kube-manifest
-    type: BINARY
-    location: gettingstarted-maifest.yaml
